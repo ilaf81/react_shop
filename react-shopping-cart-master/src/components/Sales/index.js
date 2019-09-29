@@ -8,6 +8,7 @@ class Sales extends Component {
   render() {
     return (
        
+      
       <React.Fragment>
         <div>
           <h1>This is the Sales Page</h1>
