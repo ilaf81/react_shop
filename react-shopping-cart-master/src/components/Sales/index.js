@@ -2,15 +2,17 @@ import React, { Component } from 'react';
 
 
 
-class Contact extends Component {
+
+
+class Sales extends Component {
   render() {
     return (
+       
       <React.Fragment>
-      
         <div>
           <h1>This is the Sales Page</h1>
           <ul className="header">
-          <h2>Super Sale 50% Off</h2>
+          
           </ul>
           <div className="content">
            
@@ -18,12 +20,17 @@ class Contact extends Component {
              
           </div>
         </div>
-        
-       
+        <main>      
+        <div>
+        <h2>Super Sale 50% Off</h2>
+        <p>All Large T-shirts have 50% off</p>
+        </div>
+                
 
+        </main>
       </React.Fragment>
-    );
+    )
   }
 }
 
-export default Contact;
+export default Sales;
