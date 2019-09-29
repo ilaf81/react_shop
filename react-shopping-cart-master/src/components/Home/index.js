@@ -6,11 +6,14 @@ class Home extends Component {
     return (
       <React.Fragment>
       
+
+      <main>
+        
         <div>
-          <h1>This is the Home Page</h1>
+          <h1>This is page should display movies</h1>
              
         </div>
-      
+      </main>
 
       </React.Fragment>
     );

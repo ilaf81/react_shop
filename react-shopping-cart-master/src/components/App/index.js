@@ -19,13 +19,15 @@ class App extends Component {
   render() {
     return (
       <React.Fragment>
+
+        
           <HashRouter>
           <div>
-          <h1>Simple SPA</h1>
+          <h1>InterCasa</h1>
           <ul className="header">
-          <li><NavLink to="/Home/index">Home</NavLink></li>             
-          <li><NavLink to="/Contact/index">Contact</NavLink></li>
-          <li><NavLink to="/Sales/index">Sales</NavLink></li>
+          <li><NavLink to="/Home/index">Movies</NavLink></li>             
+          <li><NavLink to="/Contact/index">Shows</NavLink></li>
+          <li><NavLink to="/Sales/index">Anime</NavLink></li>
           </ul>          
            <div className="content">
            <Route exact path="/Home/index" component={Home}/>
@@ -41,7 +43,7 @@ class App extends Component {
           <Filter />
           <Shelf />
         </main>
-        <FloatCart />
+        
         
       </React.Fragment>
     );

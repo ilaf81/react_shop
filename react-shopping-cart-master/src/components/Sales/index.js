@@ -10,25 +10,17 @@ class Sales extends Component {
        
       
       <React.Fragment>
+      <main>
+        
         <div>
-          <h1>This is the Sales Page</h1>
-          <ul className="header">
-          
-          </ul>
-          <div className="content">
-           
+        <h1>This is page should display Anime</h1>
 
-             
-          </div>
-        </div>
-        <main>      
-        <div>
-        <h2>Super Sale 50% Off</h2>
-        <p>All Large T-shirts have 50% off</p>
-        </div>
+      
+      </div> 
+      </main>
                 
 
-        </main>
+        
       </React.Fragment>
     )
   }
