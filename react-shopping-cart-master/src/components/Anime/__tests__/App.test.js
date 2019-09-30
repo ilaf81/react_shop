@@ -1,5 +1,5 @@
 import Root from '../../../Root';
-import Sales from '../../Sales/index';
+import Anime from '../../Anime/index';
 import Shelf from '../../Shelf';
 import FloatCart from '../../FloatCart';
 
@@ -8,7 +8,7 @@ let wrapped;
 beforeEach(() => {
   wrapped = mount(
     <Root>
-      <Sales />
+      <Anime />
     </Root>
   );
 });

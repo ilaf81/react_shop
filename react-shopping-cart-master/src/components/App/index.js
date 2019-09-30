@@ -6,12 +6,14 @@ import {
   HashRouter
 } from "react-router-dom";
 
-import Home from '../Home/index';
-import Contact from '../Contact/index';
-import Sales from '../Sales/index';
+
+import Shows from '../Shows/index';
+import Anime from '../Anime/index';
 import Shelf from '../Shelf';
 import Filter from '../Shelf/Filter';
 import GithubCorner from '../github/Corner';
+import Movies from '../Movies';
+
 
 
 
@@ -25,14 +27,14 @@ class App extends Component {
           <div>
           <h1>InterCasa</h1>
           <ul className="header">
-          <li><NavLink to="/Home/index">Movies</NavLink></li>             
-          <li><NavLink to="/Contact/index">Shows</NavLink></li>
-          <li><NavLink to="/Sales/index">Anime</NavLink></li>
+          <li><NavLink to="/Movies/index">Movies</NavLink></li>             
+          <li><NavLink to="/Shows/index">Shows</NavLink></li>
+          <li><NavLink to="/Anime/index">Anime</NavLink></li>
           </ul>          
            <div className="content">
-           <Route exact path="/Home/index" component={Home}/>
-           <Route exact path="/Contact/index" component={Contact}/>
-           <Route exact path="/Sales/index" component={Sales}/>
+           <Route exact path="/Movies/index" component={Movies}/>
+           <Route exact path="/Shows/index" component={Shows}/>
+           <Route exact path="/Anime/index" component={Anime}/>
 
 
            </div>

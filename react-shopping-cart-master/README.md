@@ -1,24 +1,19 @@
-## 🛍️ Simple ecommerce cart application [![CircleCI](https://circleci.com/gh/jeffersonRibeiro/react-shopping-cart.svg?style=svg)](https://circleci.com/gh/jeffersonRibeiro/react-shopping-cart)
+## 🛍️ Simple movie netflix like application 
 
-<p align="center">
+## Basic Overview - 
 
-  <img src="./doc/react-shopping-cart-min.gif">
-</p>
-
-## Basic Overview - [Live Demo](https://react-shopping-cart-67954.firebaseapp.com/)
-
-This simple shopping cart prototype shows how React components and Redux can be used to build a
-friendly user experience with instant visual updates and scaleable code in ecommerce applications.
+The goal of the app is to create a website where you can watch TV shows, movies, and anime. There will be a reward system that allows you to earn credit or virtual currency.
+The application will be free, but it will generate revenuew from user watching adds. The website will fowllow a 80-10-10 model. 80% of the revenue will be use to get more content, 10% will be use for maintance of the website, and 10% will be give back to the charity of choice of the community.
 
 #### Features
+These are some of the feature I would like to implement:
 
-- Add and remove products from the floating cart
-- Sort products by highest to lowest and lowest to highest price
-- Filter products by available sizes
-- Products persist in floating cart even after page reloads
+- Two screen for easy access within ads and videos
+- Save/Like your favorite shows for easy access from like tab
+- Filter products by genre
 - Responsive design for desktop, tablets and mobile
-- Product stoppers for free shipping
-- Unit tests, integration tests and e2e testing
+- Redeem credits for exclusive content
+- Use credit to vote for new shows or donations
 
 #### Using
 
@@ -37,54 +32,4 @@ friendly user experience with instant visual updates and scaleable code in ecomm
 - Webdriverio - to do automated tests in a real browser environment
 - Native local storage - to persist products in cart even after page reload
 
-## Getting started
 
-Try playing with the code on CodeSandbox :)
-
-[![Edit app](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/74rykw70qq)
-
-## Build/Run
-
-#### Requirements
-
-- Node.js
-- NPM
-
-```javascript
-
-/* First, Install the needed packages */
-npm install
-
-/* Then start both Node and React */
-npm start
-
-/* To run the tests */
-npm run test
-
-/* Running e2e tests */
-npm run wdio
-
-
-```
-
-## About tests
-
-- Unit tests
-  - All components have at least a basic smoke test
-- Integration tests
-  - Fetch product and add to cart properly
-- e2e
-  - Webdriverio - Add and remove product from cart
-
-### Copyright and license
-
-The MIT License (MIT). Please see License File for more information.
-
-<br/>
-<br/>
-
-<p align="center"><img src="https://avatars2.githubusercontent.com/u/20846473?s=70&v=4" width="35" height="35"/></p>
-<p align="center">
-<sub>A little project by <a href="http://www.jeffersonribeiro.com/">Jefferson Ribeiro</a></sub>
-</p>
-"# react_shop2" 
